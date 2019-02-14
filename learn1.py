@@ -1,7 +1,8 @@
 
 myNumber = 10
+myNumberFloat = 10.0147
 
-myString = 'string'
+myString = 'this is a string'
 
 myList = [
     myNumber,
@@ -9,10 +10,10 @@ myList = [
 ]
 
 myDict = {
-    'width': 1920,
-    'height': 1080,
-    'full-screen': False,
-    'motion-blur': True
+    'width': 800,
+    'height': 600,
+    'full-screen': True,
+    'motion-blur': False
 }
 
 
@@ -22,7 +23,7 @@ def add(arg1, arg2):
 
 class Car:
     def __init__(self):
-        self.engine = 'V 8 750 hp'
+        self.engine = 'V 6 750 hp'
         self.wheels = [
             1, 2, 3, 4
         ]
