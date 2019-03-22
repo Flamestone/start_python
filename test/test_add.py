@@ -21,7 +21,7 @@ def test_list():
     print lst
     print lst[0]
     print lst[1]
-    print lst[22125]
+    # print lst[22125]
 
 
 def test_string_formation():
